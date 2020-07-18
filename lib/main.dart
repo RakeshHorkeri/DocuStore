@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.deepPurple,
       ),
-      home: MyHomePage(title: 'BABA!'),
+      home: MyHomePage(title: 'DocuStore!'),
     );
   }
 }
@@ -53,7 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
       // so that the display can reflect the updated values. If we changed
       // _counter without calling setState(), then the build method would not be
       // called again, and so nothing would appear to happen.
-      _counter=_counter+" BABA ";
+      _counter=_counter+" We Will build this slowly again I repeat ";
     });
   }
 
